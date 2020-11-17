@@ -1,0 +1,33 @@
+//*** Para executar o compass com este arquivo use no 
+//CMD: "compass watch css/estilos.scss" na pasta raiz do projeto ***
+
+$sprite-spacing: 2px;
+
+@import "sprite/*.png";
+@import "helpers/variaveis";
+@import "helpers/mixins";
+@import "base/normalize";
+@import "layout/geral";
+@import "layout/header";
+@import "layout/destaque";
+@import "layout/sobre";
+@import "layout/planos";
+@import "layout/blog";
+@import "layout/contato";
+@import "layout/footer";
+
+//Todo o código de design responsivo foi imcorporado
+//aos códigos SASS.
+//@import "media-queries";
+
+
+
+
+
+
+
+
+
+
+
+

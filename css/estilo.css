@@ -1,0 +1,39 @@
+/*
+Error: The line was indented 2 levels deeper than the previous line.
+        on line 448 of C:/Users/mundo/Desktop/Programacao/Alura/Sass/site/css/estilos.css
+
+443:       text-decoration: underline; }
+444: 
+445: /* Com o Sass podemos colocar a classe dentro de outra que ele mesmo
+446:     converte no css certo, facilitando nossa organiza├º├úo.
+447: .menu-opcoes ul {
+448:     padding-left: 0;
+449: }
+450: 
+451: .menu-opcoes li {
+452:     display: inline-block;
+453:     width: 5em;
+
+Backtrace:
+C:/Users/mundo/Desktop/Programacao/Alura/Sass/site/css/estilos.css:448
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:523:in `tree'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:412:in `_to_tree'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: The line was indented 2 levels deeper than the previous line.\A         on line 448 of C:/Users/mundo/Desktop/Programacao/Alura/Sass/site/css/estilos.css\A \A 443:       text-decoration: underline; }\A 444: \A 445: /* Com o Sass podemos colocar a classe dentro de outra que ele mesmo\A 446:     converte no css certo, facilitando nossa organiza├º├úo.\A 447: .menu-opcoes ul {\A 448:     padding-left: 0;\A 449: }\A 450: \A 451: .menu-opcoes li {\A 452:     display: inline-block;\A 453:     width: 5em;"; }
